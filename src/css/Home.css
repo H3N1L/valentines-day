@@ -1,0 +1,67 @@
+*{
+    font-family: "Pirate One", sans-serif;
+}
+
+.container{
+    background: linear-gradient(0deg,rgba(238, 174, 202, 1) 7%, rgba(255, 255, 255, 1) 46%);
+    aspect-ratio: 1 / 1;
+    /*height: 500px;*/
+    width: 50%;
+    display: grid;
+    box-sizing: border-box;
+    border-radius: 50px;
+    align-items: center ;
+    justify-content: center;
+
+}
+
+.image-container{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -30px;
+    margin-left: 90px;
+
+}
+
+.message {
+    height: 100px;
+    width: 300px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    margin-right: -60px;
+    margin-left: 30px;
+}
+
+.message h3{
+    color: #1a1a1a;
+}
+
+.button-container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.button-container button{
+    width: 100px;
+}
+
+.favourite-btn {
+    position: relative;
+}
+
+.favourite-btn-no {
+    position: relative;
+
+}

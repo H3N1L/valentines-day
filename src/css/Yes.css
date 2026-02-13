@@ -1,0 +1,31 @@
+.yes-container{
+    background: linear-gradient(0deg,rgba(238, 174, 202, 1) 5%, rgba(255, 255, 255, 1) 39%);
+    aspect-ratio: 1 / 1;
+    /*height: 500px;*/
+    width: 50%;
+    display: grid;
+    box-sizing: border-box;
+    border-radius: 50px;
+    align-items: center ;
+    justify-content: center;
+}
+
+.yes-image-container{
+    height: 550px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+
+}
+
+.yes-image-container img {
+    width: 200%;
+    height: auto;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+
+}
