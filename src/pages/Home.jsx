@@ -6,7 +6,6 @@ import { useState } from "react";
 function Home() {
     const navigate = useNavigate();
     const [size, setSize] = useState({ width: 120, height: 50 });
-c
 
     const noMessages =[
         "Try again for Real this time",
