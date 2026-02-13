@@ -11,7 +11,7 @@ function App() {
   return (
     <main className="main-content">
         <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="valentines-day/" element={<Home/>}/>
             <Route path="/Yes" element={<Yes/>}/>
         </Routes>
     </main>
