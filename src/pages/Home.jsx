@@ -25,7 +25,7 @@ function Home() {
     ]
 
     const handlClick = () => {
-        navigate('/Yes')
+        navigate('/valentines-day/Yes')
 
     }
 

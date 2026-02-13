@@ -12,7 +12,7 @@ function App() {
     <main className="main-content">
         <Routes>
             <Route path="valentines-day/" element={<Home/>}/>
-            <Route path="/Yes" element={<Yes/>}/>
+            <Route path="/valentines-day/Yes" element={<Yes/>}/>
         </Routes>
     </main>
   )
