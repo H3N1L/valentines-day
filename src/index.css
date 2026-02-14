@@ -48,6 +48,7 @@ button {
   aspect-ratio: auto;
   width: 50%;
   height: auto;
+  align-items: center;
 }
 button:hover {
   border-color: #646cff;
