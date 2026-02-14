@@ -1,8 +1,8 @@
 .yes-container{
     background: linear-gradient(0deg,rgba(238, 174, 202, 1) 5%, rgba(255, 255, 255, 1) 39%);
     aspect-ratio: 1 / 1;
-    /*height: 500px;*/
-    width: 50%;
+    height: auto;
+    width: 100%;
     display: grid;
     box-sizing: border-box;
     border-radius: 50px;
@@ -11,7 +11,7 @@
 }
 
 .yes-image-container{
-    height: 50%;
+    height: 100%;
     width: auto;
     display: flex;
     align-items: center;
