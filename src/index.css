@@ -50,6 +50,9 @@ button {
   height: auto;
   align-items: center;
 }
+button a {
+  color: #f9f9f9;
+}
 button:hover {
   border-color: #646cff;
   border-width: 50px;
