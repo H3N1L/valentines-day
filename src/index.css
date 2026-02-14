@@ -49,10 +49,9 @@ button {
   width: 50%;
   height: auto;
   align-items: center;
+  color: white;
 }
-button a {
-  color: #f9f9f9;
-}
+
 button:hover {
   border-color: #646cff;
   border-width: 50px;
