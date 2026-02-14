@@ -11,21 +11,22 @@
 }
 
 .yes-image-container{
-    height: 550px;
-    width: 550px;
+    height: 50%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -50px;
+    aspect-ratio: auto;
 
 }
 
 .yes-image-container img {
-    width: 200%;
-    height: auto;
-    margin-bottom: -20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: -50px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-bottom: -50px;
+    justify-content: center;
+    align-items: center;
 
 }
